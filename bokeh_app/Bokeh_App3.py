@@ -20,7 +20,7 @@ from bokeh.transform import factor_cmap
 
 #%%  basic data setting
 global df, df_target, category_list, user_lis, side_list, Sector_Category_Side
-df = pd.read_csv('betlist_CHECKOUTED.csv')
+df = pd.read_csv('betlist_CHECKOUTED_Vt111.csv')
 df = df.loc[df['MatchedAt'].notnull()]
 df = df.loc[df['MatchedCredit']!=0]
 df = df.loc[(df['CategoryId']=='Cricket')|(df['CategoryId']=='Tennis')|(df['CategoryId']=='Soccer')]

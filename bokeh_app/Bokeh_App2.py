@@ -26,7 +26,7 @@ from datetime import date
 #%%  basic data setting
 global df, df_target, category_list, user_list
 #global x, y, source
-df = pd.read_csv('betlist_CHECKOUTED.csv')
+df = pd.read_csv('betlist_CHECKOUTED_Vt111.csv')
 df = df.loc[df['MatchedAt'].notnull()]
 df = df.loc[df['CategoryId'].isin(['Soccer','Cricket','Tennis'])]
 df['CreatedAt'] = pd.to_datetime(df['CreatedAt'], format='%d/%m/%Y %H:%M:%S')

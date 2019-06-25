@@ -24,7 +24,7 @@ from datetime import date
 #%%  basic data setting
 global df, df_category, df_market, df_target
 global category_list, marketid_list, selectionid_list
-df = pd.read_csv('BetfairOdds.csv')
+df = pd.read_csv('1.159762662.csv')
 df = df.dropna(axis=0,how='any')
 df = df.dropna(axis=1,how='any')
 df['marketstarttime'] = pd.to_datetime(df['marketstarttime'], format='%Y%m%d-%H:%M:%S')
@@ -69,7 +69,7 @@ L_y = list([1,2])
 L_yy = list([1,2])
 B_y = list([1,2])
 B_yy = list([1,2])
-TOOLS = "pan,box_zoom,reset,lasso_select,save,box_select,xzoom_in,crosshair"
+TOOLS = "pan,box_zoom,reset,save,wheel_zoom, xzoom_in, xzoom_out,yzoom_in, yzoom_out,crosshair"
 
 data = {'x':x, 'L_y':L_y, 'L_yy':L_yy, 'B_y':B_y, 'B_yy':B_yy}
 source = ColumnDataSource(data=data)

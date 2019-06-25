@@ -25,7 +25,7 @@ from datetime import date
 
 #%%  basic data setting
 global df, df_target, df_Top10ROI
-df = pd.read_csv('betlist_CHECKOUTED.csv')
+df = pd.read_csv('betlist_CHECKOUTED_Vt111.csv')
 df = df.loc[df['MatchedAt'].notnull()]
 df = df.loc[df['MatchedCredit']!=0]
 df = df.loc[(df['CategoryId']=='Cricket')|(df['CategoryId']=='Tennis')|(df['CategoryId']=='Soccer')]

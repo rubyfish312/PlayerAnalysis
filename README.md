@@ -7,3 +7,18 @@ tools for analysis players' behavior
 
 ## bokeh_app
 - data visualization
+
+# SA Treeline Check
+check the P&L in each SA treeline in 3 months
+look for strange PT setting or changing on CA's PT
+
+## check 3 months P&L in each SA treeline
+- match_treeline.py
+find 'snkhkd14' with strang P&L changing between CA & SA
+->check 'snkhkd14' treeline
+
+## check selected SA treeline
+### number of players changing in 3 months
+- sa_player_check.py
+check number of players in each month
+->'snkhkd14' Aug:164, Sep:825, Oct:685

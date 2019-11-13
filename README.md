@@ -21,4 +21,8 @@ find 'snkhkd14' with strang P&L changing between CA & SA
 ### number of players changing in 3 months
 - sa_player_check.py
 check number of players in each month
-->'snkhkd14' Aug:164, Sep:825, Oct:685
+->'snkhkd14' Aug:164, Sep:172, Oct:143
+### check players winloss / CA P&L / SA P&L in Aug & Sep
+classify players by keep playing or not
+check CA P&L / SA P&L strange changing
+->SA's PT has advantage in Sep

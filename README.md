@@ -26,3 +26,7 @@ check number of players in each month
 classify players by keep playing or not
 check CA P&L / SA P&L strange changing
 ->SA's PT has advantage in Sep
+### check winning players distribution in SA / A / S in 3 months
+->'snkhkd14' may no problem
+->players in 'snksg' keep winnig in 3 months, the biggest winloss in month by different players
+->suspect that strange treelines are control by Sam

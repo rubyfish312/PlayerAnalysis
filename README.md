@@ -30,3 +30,7 @@ check CA P&L / SA P&L strange changing
 ->'snkhkd14' may no problem
 ->players in 'snksg' keep winnig in 3 months, the biggest winloss in month by different players
 ->suspect that strange treelines are control by Sam
+
+### FLA
+folder for betlist organizing files
+

@@ -32,5 +32,10 @@ check CA P&L / SA P&L strange changing
 ->suspect that strange treelines are control by Sam
 
 ### FLA
-folder for betlist organizing files
+folder for betlist organizing
+
+### check suspicious players by IP
+1. IP player used to bet is in Sam's whitelist or not
+2. multi players have used same IP
+3. the timeline player used the IP
 

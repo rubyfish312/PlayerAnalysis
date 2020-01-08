@@ -39,3 +39,30 @@ folder for betlist organizing
 2. multi players have used same IP
 3. the timeline player used the IP
 
+
+# Prepare Data for weekly / monthly report
+## dataclean.py
+clean data & output new betlist
+### [betfair & wicket fancy & book maker] - betlistClean
+- fix username format
+- fix time format
+- match downline
+- real stake
+- downline W/L
+
+### [playtech / WACS / teenpatti & BTi] - PTClean
+- fix time format
+- match exchange rate
+- W/L in TXD
+
+## conclusion.py
+### [betfair] - BBBreport / CAreport
+- turnover
+- GGR
+- commission
+- commission net gain
+- NGR
+
+### [wicket fancy & book maker] - BBBreport / CAreport & [playtech / WACS / teenpatti & BTi] - PTreport
+- turnover
+- GGR
